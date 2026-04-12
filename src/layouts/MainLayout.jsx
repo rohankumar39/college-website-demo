@@ -13,7 +13,7 @@ export default function MainLayout({ children }) {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main className="flex-1 pt-[104px]">
+      <main className="flex-1 pt-16 md:pt-[92px]">
         {children}
       </main>
       <Footer />
